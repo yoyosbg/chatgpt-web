@@ -27,7 +27,7 @@ const userInfo = computed(() => userStore.userInfo)
     </div>
     <div class="flex-1 min-w-0 ml-2">
       <h2 class="overflow-hidden font-bold text-md text-ellipsisp">
-        {{ userInfo.name ?? '变化之术，存乎大观 大观之道，存乎自然' }}
+        {{ userInfo.name ?? '我是您的专属AI' }}
       </h2>
       <p class="overflow-hidden text-xs text-gray-500 text-ellipsis whitespace-nowrap">
         <span

@@ -16,7 +16,7 @@ export function defaultSetting(): UserState {
   return {
     userInfo: {
       avatar: '',
-      name: '变化之术，存乎大观 大观之道，存乎自然',
+      name: '我是您的专属AI',
       description: '',
     },
   }
