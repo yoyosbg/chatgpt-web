@@ -26,8 +26,8 @@ const userInfo = computed(() => userStore.userInfo)
       </template>
     </div>
     <div class="flex-1 min-w-0 ml-2">
-      <h2 class="overflow-hidden font-bold text-md text-ellipsis whitespace-nowrap">
-        {{ userInfo.name ?? 'ChenZhaoYu' }}
+      <h2 class="overflow-hidden font-bold text-md text-ellipsisp">
+        {{ userInfo.name ?? '变化之术，存乎大观 大观之道，存乎自然' }}
       </h2>
       <p class="overflow-hidden text-xs text-gray-500 text-ellipsis whitespace-nowrap">
         <span
